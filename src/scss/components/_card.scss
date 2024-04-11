@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+
+.card-item {
+    margin-left: auto;
+    .card-image {
+        overflow: hidden;
+    }
+}

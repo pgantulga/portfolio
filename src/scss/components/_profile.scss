@@ -1,0 +1,47 @@
+@use "../abstracts/" as *;
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+        margin-bottom: 0.5rem;
+    }
+    .important{
+        font-weight: bold;
+       
+    }
+    .email {
+        text-decoration: none;
+        color: $primaryColor;
+    }
+    .profile-image {
+        height: 8rem;
+        width: 8rem;
+        margin-bottom: 1rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgb(15, 118, 110);
+        background: linear-gradient(
+            63deg,
+            rgba(15, 118, 110, 1) 0%,
+            rgba(113, 182, 133, 1) 45%,
+            rgba(217, 249, 157, 1) 100%
+        );
+        img {
+
+            height: 95%;
+            border-radius: 10rem;
+
+        }
+        border-radius: 10rem;
+    }
+
+    
+}

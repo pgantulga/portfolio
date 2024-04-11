@@ -1,0 +1,33 @@
+// TYPOGRAPHY
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet');
+$primaryFont: "Source Sans 3", sans-serif;
+
+$primaryColor: #14B8A6;
+$primaryLight: #F0FDFA;
+$complementaryColor: #282A35; /* TAILWIND: GRAY 900 */
+$complementarySkewColor: #212529;
+$highlightColor: #9ca3af; /* TAILWIND: GRAY 400 */
+$brandColor: #60a5fa; /* TAILWIND: BLUE 400 */
+$brandSkewColor: #818cf8; /* TAILWIND: INDIGO 400 */
+$highlightColor: #9ca3af; /* TAILWIND: GRAY 400 */
+$succesColor: #16a34a; /* TAILWIND: GREEN 600 */
+$errorColor: #dc2626; /* TAILWIND: RED 600 */
+
+// BS-COLORS
+$primary: $primaryColor;
+$white: #FFFFFF;
+$dark: $complementaryColor;
+$danger: $errorColor;
+
+// BS-UTILITIES: Spacer
+$spacer: 2rem;
+// BS-UTILITIES: Media Query Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 1200px,
+  md: 1250px,
+  lg: 1300px,
+  xl: 1350px,
+  xxl: 1400px
+);
+

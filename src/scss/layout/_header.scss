@@ -1,0 +1,16 @@
+@use '../abstracts/' as *;
+
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  // opacity: 0;
+  width: 100%;
+  .navbar-brand, .nav-link {  
+    cursor: pointer;
+    color: $primaryLight;
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+}

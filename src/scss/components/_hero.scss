@@ -1,0 +1,40 @@
+@use "../abstracts/" as *;
+
+#hero-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 0;
+
+  overflow: hidden;
+  background-color: black;
+  z-index: -2;
+  .background-image {
+    position: absolute;
+    background-size: cover;
+    opacity: 0.3;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+  }
+  .svg {
+    position: absolute;
+    bottom: -1px;
+  }
+  .content {
+    
+    h1 {
+      font-weight: bold;
+      font-size: 3.5em;
+      color: $white;
+    }
+
+    h2 {
+      margin: 1.5rem 0;
+      color: $white;
+      font-weight: lighter;
+    }
+  }
+
+  
+}
