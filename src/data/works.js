@@ -3,7 +3,7 @@ const works =
         {
             title: 'Women in Mining Association',
             description: 'Website for women in Mining Association. Built with Angular frameworks with typescript and Firebase SDK.',
-            image: "/src/assets/works/women.jpg",
+            image: "../src/assets/works/women.jpg",
             link: 'http://womeninmining-f8929.web.app',
             labels: [
                 {
