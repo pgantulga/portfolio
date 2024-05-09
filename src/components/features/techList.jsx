@@ -4,7 +4,7 @@ const TechList = () => {
   const techs = [
     {
       title: 'Javascript',
-      image: '/../../assets/technos/js.png'
+      image: './src/assets/technos/js.png'
     },  
     {
       title: 'Angular',
