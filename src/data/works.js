@@ -3,7 +3,7 @@ const works =
         {
             title: 'Women in Mining Association',
             description: 'Website for women in Mining Association. Built with Angular frameworks with typescript and Firebase SDK.',
-            image: "../src/assets/works/women.jpg",
+            image: "../assets/women.jpg",
             link: 'http://womeninmining-f8929.web.app',
             labels: [
                 {
@@ -20,7 +20,7 @@ const works =
         {
             title: 'Question and Answer platworm',
             description: 'Question and answer web application for miners in Mongolia. Built with Angular frameworks with typescript and Firebase SDK.',
-            image: "/src/assets/works/qa.jpg",
+            image: "/src/assets/qa.jpg",
             link:'https://qaproject-23417.web.app',
             labels: [
                 {

@@ -1,10 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import holder from '../../../assets/works/women.jpg'
 import Stack from 'react-bootstrap/Stack';
 import Badge from 'react-bootstrap/Badge';
-import { Link } from 'react-router-dom';
 
 const CardItem = (props) => {
   const { title, description, labels, image, link } = props.work;
