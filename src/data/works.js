@@ -1,9 +1,15 @@
+import women from '../assets/women.jpg';
+import qa from '../assets/qa.jpg';
+import ub from '../assets/ub.jpg';
+import dm from '../assets/DM.jpg';
+
+
 const works =
     [
         {
             title: 'Women in Mining Association',
             description: 'Website for women in Mining Association. Built with Angular frameworks with typescript and Firebase SDK.',
-            image: "../assets/women.jpg",
+            image: women,
             link: 'http://womeninmining-f8929.web.app',
             labels: [
                 {
@@ -20,7 +26,7 @@ const works =
         {
             title: 'Question and Answer platworm',
             description: 'Question and answer web application for miners in Mongolia. Built with Angular frameworks with typescript and Firebase SDK.',
-            image: "/src/assets/qa.jpg",
+            image: qa,
             link:'https://qaproject-23417.web.app',
             labels: [
                 {
@@ -37,7 +43,7 @@ const works =
         {
             title: 'Ulaanbaatar FC store',
             description: 'Web application for Ulaanbaatar FC football club store. Built front-end with React library and backend with ExpressJS and MongoDB.',
-            image: "/src/assets/works/ub.jpg",
+            image: ub,
             labels: [
                 {
                     title: 'React'
@@ -53,9 +59,8 @@ const works =
         {
             title: 'Discover Mongolia Forum',
             description: 'Web application for Discover Mongolia Internationl Mining Forum. Built with Angular frameworks with typescript and Firebase SDK.',
-            image: "/src/assets/works/DM.jpg",
+            image: dm,
             link: "https://dm2020-38206.web.app/home",
-
             labels: [
                 {
                     title: 'Angular'
