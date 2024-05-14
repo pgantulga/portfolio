@@ -1,30 +1,35 @@
-
+import jslogo from '../../assets/technos/js.png';
+import fblogo from '../../assets/technos/firebase.png';
+import angularlogo from '../../assets/technos/angular.png';
+import mongodblogo from '../../assets/technos/mongodb.png';
+import reactlogo from '../../assets/technos/react.png';
+import sasslogo from '../../assets/technos/sass_0.png';
 
 const TechList = () => {
   const techs = [
     {
       title: 'Javascript',
-      image: './src/assets/technos/js.png'
+      image: jslogo
     },  
     {
       title: 'Angular',
-      image: '/src/assets/technos/angular.png'
+      image: angularlogo
     },
     {
       title: 'React',
-      image: '/src/assets/technos/react.png'
+      image: reactlogo
     },
     {
       title: 'Firebase',
-      image: '/src/assets/technos/firebase.png'
+      image: fblogo
     },
     {
-      title: 'Angular',
-      image: '/src/assets/technos/mongodb.png'
+      title: 'MongoDB',
+      image: mongodblogo
     },
     {
-      title: 'Angular',
-      image: '/src/assets/technos/sass_0.png'
+      title: 'SASS',
+      image: sasslogo
     }
   ]
 
