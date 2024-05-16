@@ -1,4 +1,4 @@
-import background from '../../assets/coding.jpg';
+import background from '../../assets/coding.webp';
 
 const Hero = ({ title, subtitle }) => {
     return (

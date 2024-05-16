@@ -12,7 +12,7 @@ const CardItem = (props) => {
     <Card style={{ width: '40rem', margin: '8px' }}>
       <Row>
         <Col className='card-image'>
-          <Card.Img style={{ height: '100%', overflow: 'hidden' }} src={image} />
+          <Card.Img style={{ height: '100%', overflow: 'hidden' }} src={image} alt={title}/>
         </Col>
         <Col>
           <Card.Body style={{ paddingLeft: '0' }}>
